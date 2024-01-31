@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #8cb6db;
+}
+ 
+h2 {
+    color: white;
+    text-align: center;
+}
+
+header {
+    height: 25rem;
+}
+
+.pets-img {
+    height: 100%;
+    width: 100%;
+    background-image: url(Assets/pexels-snapwire-46024.jpg);
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    height: 4rem;
+    width: 55vw;
+    background-color: #ffffff;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 38%;
+    box-shadow: 0 0 10px;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #8cb6db;
+}
